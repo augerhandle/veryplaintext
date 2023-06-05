@@ -99,7 +99,7 @@ div#content h2,div#content h3,div#content h4,div#content h5,div#content h6,div#h
 div#content .entry-title,div#content .page-title{letter-spacing:1px;margin:0;}
 body.home div#content h2.entry-title, body.archive div#content h3.entry-title{font-size:1.4em;font-family:monospace;background-color:rgb(233, 233, 233);}
 body.single div#content h2.entry-title{font-size:1.4em;font-family:monospace;}
-div#content h2.page-title{font-size:1.4em;font-family:monospace;background-color:rgb(233, 233, 233);}
+div#content h2.page-title{font-size:1.75em;font-family:monospace;}
 div#content h3.entry-title{font-size:1.1em;}
 div#footer{border-bottom:2px solid #000;border-top:1px solid #000;clear:both;font-size:0.7em;margin:0 0 2em;padding:0.5em 0;width:100%;}
 div#footer span.meta-sep{padding:0 0.5em;}
@@ -161,4 +161,6 @@ div#nav-below {font-family:monospace;border-top:1px dashed; text-align:center;}
 div#nav-below ul#menu {margin:0; padding:0; list-style-type:none; text-align:justify;}
 div#nav-below ul#menu:after {content:""; width:100%; display:inline-block; }
 div#nav-below ul#menu li {display:inline;}
-
+div.sidebar h2.wp-block-heading {font-family:monospace;color:rgb(186, 185, 185);}
+div.sidebar ul.wp-block-archives li, div.sidebar ul.wp-block-archives li a{font-family:monospace;color:rgb(142, 142, 142);font-size:90%;}
+div.sidebar ul.wp-block-archives li a:hover {font-weight:bold;text-decoration:underline;font-style:italic;color:blue;}
