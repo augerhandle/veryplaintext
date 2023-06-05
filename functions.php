@@ -3,7 +3,6 @@
 function veryplaintxt_globalnav() {
 	echo "<div id=\"globalnav\"><ul id=\"menu\">";
 	if ( !is_front_page() ) { ?><li><?php previous_post_link('%link', '&lt;PREV', 'veryplaintext') ?></li> <li class="page_item_home home-link"><a href="<?php bloginfo('home'); ?>/" title="<?php echo _wp_specialchars(get_bloginfo('name'), 1) ?>" rel="home"><?php _e('HOME', 'veryplaintxt') ?></a></li> <li><?php next_post_link('%link', 'NEXT&gt;', 'veryplaintext')?></li><?php }
-	$menu = wp_list_pages('title_li=&sort_column=menu_order&echo=0'); // Params for the page list in header.php
 	echo str_replace(array("\r", "\n", "\t"), '', $menu);
 	echo "</ul></div>\n";
 }
