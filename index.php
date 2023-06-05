@@ -18,7 +18,7 @@
 <?php endwhile ?>
 
 			<div id="nav-below" class="navigation">
-				<div class="nav-previous"><?php next_posts_link(__('&lt;OLDER', 'veryplaintxt')) ?></div>
+				<div class="nav-previous"><?php next_posts_link(__('&lt;OLDER', 'veryplaintxt')) ?></div><div><a href="<?php bloginfo('home'); ?>/" title="<?php echo _wp_specialchars(get_bloginfo('name'), 1) ?>" rel="home"><?php _e('HOME', 'veryplaintxt') ?></a></div>
 				<div class="nav-next"><?php previous_posts_link(__('NEWER&gt;', 'veryplaintxt')) ?></div>
 			</div>
 

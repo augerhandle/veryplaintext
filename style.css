@@ -87,7 +87,7 @@ body.single div.entry-meta,body.attachment div.entry-meta{clear:both;}
 div.entry-date abbr.published{border:none;display:block;margin:0.3em 0 -0.5em;}
 div#content div.navigation{letter-spacing:1px;margin:1em auto;}
 div#content div.navigation div{display:inline;font-family:monospace;font-weight:100;}
-div#content div.navigation div a {border:1px dotted;}
+div#content div.navigation div a {border:none;}
 div#content div.navigation div.nav-previous{margin:0 1em 0 0;}
 form#searchform input#searchsubmit,body.page div.contactform div.contactright input#contactsubmit,div.formcontainer form#commentform div.form-submit input#submit{background:#ddd;border:1px solid #000;font:1em/normal "times new roman",times,serif;}
 div.sidebar ul li input#searchsubmit{background:#ddd;border:1px solid #000;font:0.9em/normal "times new roman",times,serif;}
@@ -155,4 +155,8 @@ div#globalnav {font-family:monospace;border-top:1px dashed;}
 div#globalnav ul#menu {margin:0; padding:0; list-style-type:none; text-align:justify;}
 div#globalnav ul#menu:after {content:""; width:100%; display:inline-block; }
 div#globalnav ul#menu li {display:inline;}
+div#nav-below {font-family:monospace;border-top:1px dashed; text-align:center;}
+div#nav-below ul#menu {margin:0; padding:0; list-style-type:none; text-align:justify;}
+div#nav-below ul#menu:after {content:""; width:100%; display:inline-block; }
+div#nav-below ul#menu li {display:inline;}
 
