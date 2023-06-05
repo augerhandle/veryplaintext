@@ -34,22 +34,10 @@
 <?php the_excerpt('<span class="more-link">'.__('Continue reading &rsaquo;', 'veryplaintxt').'</span>') ?>
 
 				</div>
-				<div class="entry-meta">
-					<span class="entry-category"><?php if ( !is_category() ) { printf(__('Filed in %s', 'veryplaintxt'), get_the_category_list(', ') ); } else { $other_cats = veryplaintxt_other_cats(', '); printf(__('Also filed in %s', 'veryplaintxt'), $other_cats ); } ?></span>
-					<span class="meta-sep">|</span>
-					<span class="entry-tags"><?php if ( !is_tag() ) { echo the_tags(__('Tagged ', 'veryplaintxt'), ", "); } else { $other_tags = veryplaintxt_other_tags(', '); printf(__('Also tagged %s', 'veryplaintxt'), $other_tags); } ?></span>
-					<span class="meta-sep">|</span>
-<?php edit_post_link(__('Edit', 'veryplaintxt'), "\t\t\t\t\t<span class='entry-edit'>", "</span>\n\t\t\t\t\t<span class='meta-sep'>|</span>\n"); ?>
-					<span class="entry-comments"><?php comments_popup_link(__('Comments (0)', 'veryplaintxt'), __('Comments (1)', 'veryplaintxt'), __('Comments (%)', 'veryplaintxt')) ?></span>
-				</div>
 			</div><!-- .post -->
 
 <?php endwhile ?>
 
-			<div id="nav-below" class="navigation">
-				<div class="nav-previous"><?php next_posts_link(__('&lsaquo; Older posts', 'veryplaintxt')) ?></div>
-				<div class="nav-next"><?php previous_posts_link(__('Newer posts &rsaquo;', 'veryplaintxt')) ?></div>
-			</div>
 
 		</div><!-- #content .hfeed -->
 	</div><!-- #container -->
