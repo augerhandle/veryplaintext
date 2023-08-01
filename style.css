@@ -155,6 +155,8 @@ div.comments h3#respond,div.formcontainer div#comment-notes,div.sidebar ul li.wi
 div.comments h3.comment-header,body.single div.navigation,div.entry-content p,div.sidebar ul li#home-link h3{margin:1em 0;}
 div#content div.entry-date abbr.published {font-family:monospace;font-style:normal;line-height:100%;font-size:75%;color:rgb(154, 154, 154);}
 div#content div.dah-entry-subtitle {font-family:monospace;font-style:normal;line-height:100%;font-size:75%;color:rgb(154, 154, 154);}
+div#content div.dah-entry-subtitle span.dah-date {float:left;}
+div#content div.dah-entry-subtitle span.dah-license-badge {float:right;}
 div#globalnav {font-family:monospace;border-top:1px dashed;}
 div#globalnav ul#menu {margin:0; padding:0; list-style-type:none; text-align:justify;}
 div#globalnav ul#menu:after {content:""; width:100%; display:inline-block; }
