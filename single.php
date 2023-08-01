@@ -7,7 +7,10 @@
 
 			<div id="post-<?php the_ID(); ?>" class="<?php veryplaintxt_post_class(); ?>">
 				<h2 class="entry-title"><a href="<?php get_permalink(); ?>" rel="bookmark" style="text-decoration:underline"><?php the_title(); ?></a></h2>
-				<div class="entry-date"><abbr class="published" title="<?php the_time('Y-m-d\TH:i:sO'); ?>"><?php unset($previousday); printf(__('%1$s', 'veryplaintxt'), the_date('D, j M Y, h:i A (e)', false)) ?></abbr></div>
+				<div class="dah-entry-subtitle">
+					<span style="float:left"><?php unset($previousday); printf(__('%1$s', 'veryplaintxt'), the_date('D, j M Y, h:i A (e)', false)) ?></span>
+					<span title="license info" style="float:right"><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a></span>
+				</div>
 				<div class="entry-content">
 					<?php the_content('<span class="more-link">'.__('Read More', 'veryplaintxt').'</span>'); ?>
 				</div>

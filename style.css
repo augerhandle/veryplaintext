@@ -1,5 +1,5 @@
 /*
-THEME NAME: jf3-veryplaintxt
+THEME NAME: jf3-veryplaintxt-linked
 THEME URI: http://www.plaintxt.org/themes/veryplaintxt/
 DESCRIPTION: A fluid two-column layout&mdash;the original &ldquo;plain text&rdquo; theme. An exceptionally clean, content-centered theme. Think <cite><a  title="Timothy McSweeny's Internet Tendency">McSweeny's</a></cite>. For WordPress 2.6.x.
 VERSION: 4.7.0
@@ -86,7 +86,8 @@ body.attachment div#nav-images div{margin:0;padding:2em 2%;width:45%;}
 body.attachment div#nav-images div.nav-previous{text-align:right;}
 body.attachment div#nav-images div.nav-next{text-align:left;}
 body.single div.entry-meta,body.attachment div.entry-meta{clear:both;}
-div.entry-date abbr.published{border:none;display:block;margin:0.3em 0 -0.5em;}
+div.entry-date abbr.published{border:none;display:inline;margin:0.3em 0 -0.5em;}
+div.entry-date abbr.license{float:right;border:none;display:inline;line-height:100%;font-size:75%;margin:0.3em 0 -0.5em;}
 div#content div.navigation{letter-spacing:1px;margin:1em auto;}
 div#content div.navigation div{display:inline;font-family:monospace;font-weight:100;}
 div#content div.navigation div a {border:none;}
@@ -153,6 +154,7 @@ div#globalnav ul,div.sidebar ul,div.sidebar ul li,div#content div.entry-content 
 div.comments h3#respond,div.formcontainer div#comment-notes,div.sidebar ul li.widget_text div p{margin:0 0 0.5em;}
 div.comments h3.comment-header,body.single div.navigation,div.entry-content p,div.sidebar ul li#home-link h3{margin:1em 0;}
 div#content div.entry-date abbr.published {font-family:monospace;font-style:normal;line-height:100%;font-size:75%;color:rgb(154, 154, 154);}
+div#content div.dah-entry-subtitle {font-family:monospace;font-style:normal;line-height:100%;font-size:75%;color:rgb(154, 154, 154);}
 div#globalnav {font-family:monospace;border-top:1px dashed;}
 div#globalnav ul#menu {margin:0; padding:0; list-style-type:none; text-align:justify;}
 div#globalnav ul#menu:after {content:""; width:100%; display:inline-block; }
