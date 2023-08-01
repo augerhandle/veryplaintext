@@ -34,7 +34,7 @@ body.home h2.entry-title a, body.archive h3.entry-title a, body.search h3.entry-
 body.home h2.entry-title a:hover, body.archive h3.entry-title a:hover, body.search h3.entry-title a:hover {background-color: rgb(217, 217, 247);}
 body.single div#content,body.page div#content{margin:3em 0 0;}
 body.archive div.archive-meta{font-style:italic;letter-spacing:1px;}
-body.archive div.p1{margin-top:2em;}
+body.archive div.p1, body.search div.p1{margin-top:2em;}
 div.entry-content .clearer{clear:both;width:99%;}
 div#wrapper div.entry-content .html,div#wrapper div.entry-content .download,div#wrapper div.entry-content .pdf,div#wrapper div.entry-content .zip{margin-left:2px;padding:2px 0 2px 19px;}
 div#wrapper div.entry-content .download{background:url(images/file-download.png) no-repeat center left;}
