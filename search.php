@@ -18,14 +18,6 @@
 <?php the_excerpt('<span class="more-link">'.__('(Continued)', 'veryplaintxt').'</span>') ?>
 
 				</div>
-				<div class="entry-meta">
-					<span class="entry-category"><?php printf(__('Filed in %s', 'veryplaintxt'), get_the_category_list(', ') ) ?></span>
-					<span class="meta-sep">|</span>
-					<span class="entry-tags"><?php the_tags(__('Tagged ', 'veryplaintxt'), ", ", "") ?></span>
-					<span class="meta-sep">|</span>
-<?php edit_post_link(__('Edit', 'veryplaintxt'), "\t\t\t\t\t<span class='entry-edit'>", "</span>\n\t\t\t\t\t<span class='meta-sep'>|</span>\n"); ?>
-					<span class="entry-comments"><?php comments_popup_link(__('Comments (0)', 'veryplaintxt'), __('Comments (1)', 'veryplaintxt'), __('Comments (%)', 'veryplaintxt')) ?></span>
-				</div>
 			</div><!-- .post -->
 
 <?php endwhile; ?>
