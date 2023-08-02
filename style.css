@@ -30,7 +30,7 @@ body div#content div.entry-meta{clear:both;width:100%;}
 body.single div#container,body.page div#container{margin:0 0 2em;}
 body.single div.entry-meta{border-bottom:2px solid #000;border-top:1px solid #000;margin:2em auto;padding:0.5em;width:75%;}
 body.home h2.entry-title a, body.single h2.entry-title a, body.archive h3.entry-title a, body.search h3.entry-title a {display:inline-block; width: 100%;}
-body.home h2.entry-title a:hover, body.archive h3.entry-title a:hover, body.search h3.entry-title a:hover, body.single h2.entry-title a:hover,body.page h2.entry-title a:hover {background-color: rgb(217, 217, 247);}
+div#header h1#blog-title a:hover, body.home h2.entry-title a:hover, body.archive h3.entry-title a:hover, body.search h3.entry-title a:hover, body.single h2.entry-title a:hover,body.page h2.entry-title a:hover {background-color: rgb(217, 217, 247);}
 body.single div#content,body.page div#content{margin:3em 0 0;}
 body.archive div.archive-meta{font-style:italic;letter-spacing:1px;}
 body.archive div.p1, body.search div.p1{margin-top:2em;}
