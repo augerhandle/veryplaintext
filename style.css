@@ -23,7 +23,7 @@ body.home div.entry-meta span{font-size:0.8em;}
 body.home div.entry-meta span.meta-sep{margin:0 0.3em;}
 body.home div.entry-meta,body.archive div.entry-meta,body.search div.entry-meta{margin:-0.5em 0 2.5em;}
 body.home div#globalnav,body.archive div#globalnav,body.search div#globalnav,body.four04 div#globalnav,body div#globalnav ul li ul,div.access,body.single div.sidebar,body.page div.sidebar,span#theme-link span.additional-name,span#theme-link span.family-name{display:none;}
-body.home div#blog-description,body.archive div#blog-description,body.search div#blog-description,body.four04 div#blog-description{border-bottom:2px solid #000;}
+div#blog-description{border-bottom:1px solid lightgray;}
 body.page div.comments{margin:2em 0;}
 body.page p.entry-edit{clear:both;width:100%;}
 body div#content div.entry-meta{clear:both;width:100%;}
@@ -102,11 +102,10 @@ div#content h2.page-title{font-size:1.75em;font-family:monospace;}
 div#content h3.entry-title{font-size:1.1em;}
 div#footer{border-bottom:2px solid #000;border-top:1px solid #000;clear:both;font-size:0.7em;margin:0 0 2em;padding:0.5em 0;width:100%;}
 div#footer span.meta-sep{padding:0 0.5em;}
-div#globalnav{border-bottom:2px solid #000;border-top:1px solid #000;}
 div#globalnav ul,div#globalnav ul li{display:inline;list-style:none;}
 div#globalnav ul li{line-height:200%;margin:0 1em;}
 div#header div#blog-description,div#header h1#blog-title{letter-spacing:3px;text-transform:lowercase;font-family:monospace;font-style:italic;}
-div#header div#blog-description{border-top:1px solid #000;line-height:200%;}
+div#header div#blog-description{line-height:100%; padding-bottom:0.25em; color:#979aaa}
 div#header h1#blog-title{font-size:3.5em;font-weight:400;margin:0.2em 0 0.1em;padding:0;}
 div.comments{margin:3em 0;width:89%;}
 div.comments span.req-field{color:red;}
@@ -155,8 +154,8 @@ div#content div.entry-date abbr.published {font-family:monospace;font-style:norm
 div#content div.dah-entry-subtitle {font-family:monospace;font-style:normal;line-height:100%;padding-top:0.5em;padding-bottom:0.25em;font-size:80%;color:#979aaa;}
 div#content div.dah-entry-subtitle span.dah-date {float:left;}
 div#content div.dah-entry-subtitle span.dah-license-badge {float:right;}
-div#globalnav {font-family:monospace;border-top:1px dashed;}
-div#globalnav ul#menu {margin:0; padding:0; list-style-type:none; text-align:justify;}
+div#globalnav {font-family:monospace;border-top:1px solid lightgray; border-bottom:1px solid lightgray;}
+div#globalnav ul#menu {margin:0; padding:0; list-style-type:none; text-align:justify; font-weight:bold;}
 div#globalnav ul#menu:after {content:""; width:100%; display:inline-block; }
 div#globalnav ul#menu li {display:inline;}
 div#nav-below {font-family:monospace;border-top:1px dashed; text-align:center;}
