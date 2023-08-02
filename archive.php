@@ -28,7 +28,7 @@
 <?php while ( have_posts() ) : the_post(); ?>
 
 			<div id="post-<?php the_ID() ?>" class="<?php veryplaintxt_post_class() ?>">
-				<h3 class="entry-title"><a href="<?php the_permalink() ?>" title="<?php printf(__('Permalink to %s', 'veryplaintxt'), _wp_specialchars(get_the_title(), 1)) ?>" rel="bookmark"><?php the_title() ?></a></h3>
+				<h3 class="entry-title"><a title="permalink" href="<?php the_permalink() ?>" title="<?php printf(__('Permalink to %s', 'veryplaintxt'), _wp_specialchars(get_the_title(), 1)) ?>" rel="bookmark"><?php the_title() ?></a></h3>
 				<div class="dah-entry-subtitle">
 					<span class="dah-date"><?php unset($previousday); printf(__('%1$s', 'veryplaintxt'), the_date('D, j M Y, h:i A (e)', false)) ?></span>
 				</div>
