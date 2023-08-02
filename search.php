@@ -5,7 +5,7 @@
 
 <?php if (have_posts()) : ?>
 
-		<h2 class="page-title"><?php _e('Search Results for:', 'veryplaintxt') ?> <?php echo _wp_specialchars(stripslashes($_GET['s']), true); ?></h2>
+		<h2 class="page-title"><?php _e('Search Results for:', 'veryplaintxt') ?> <span class="dah-query-text"><?php echo _wp_specialchars(stripslashes($_GET['s']), true); ?></span></h2>
 
 <?php while (have_posts()) : the_post(); ?>
 

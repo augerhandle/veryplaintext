@@ -6,11 +6,11 @@
 <?php the_post() ?>
 
 <?php if ( is_day() ) : ?>
-			<h2 class="page-title"><?php printf(__('Daily Archives: <span>%s</span>', 'veryplaintxt'), get_the_time(__('F jS, Y', 'veryplaintxt'))) ?></h2>
+			<h2 class="page-title"><?php printf(__('Daily Archives: <span class="dah-query-text">%s</span>', 'veryplaintxt'), get_the_time(__('F jS, Y', 'veryplaintxt'))) ?></h2>
 <?php elseif ( is_month() ) : ?>
-			<h2 class="page-title"><?php printf(__('Monthly Archives: <span>%s</span>', 'veryplaintxt'), get_the_time(__('F Y', 'veryplaintxt'))) ?></h2>
+			<h2 class="page-title"><?php printf(__('Monthly Archives: <span class="dah-query-text">%s</span>', 'veryplaintxt'), get_the_time(__('F Y', 'veryplaintxt'))) ?></h2>
 <?php elseif ( is_year() ) : ?>
-			<h2 class="page-title"><?php printf(__('Yearly Archives: <span>%s</span>', 'veryplaintxt'), get_the_time(__('Y', 'veryplaintxt'))) ?></h2>
+			<h2 class="page-title"><?php printf(__('Yearly Archives: <span class="dah-query-text">%s</span>', 'veryplaintxt'), get_the_time(__('Y', 'veryplaintxt'))) ?></h2>
 <?php elseif ( is_author() ) : ?>
 			<h2 class="page-title"><?php printf(__('Author Archives: <span class="vcard"><span class="fn n">%s</span></span>', 'veryplaintxt'), get_the_author() ) ?></h2>
 			<div class="archive-meta"><?php if ( !(''== $authordata->user_description) ) : echo apply_filters('archive_meta', $authordata->user_description); endif; ?></div>

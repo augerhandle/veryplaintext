@@ -98,7 +98,7 @@ body.page div.contactform div.contactright input#contactsubmit{margin:0 0 0 10em
 div.formcontainer form#commentform div.form-submit input#submit{margin:0.5em 0 0 7em;}
 div#content h2,div#content h3,div#content h4,div#content h5,div#content h6,div#header h1#blog-title,div.sidebar ul li h3{font-weight:400;line-height:130%;}
 div#content .entry-title,div#content .page-title{letter-spacing:1px;margin:0;}
-body.home div#content h2.entry-title, body.archive div#content h3.entry-title, body.search div#content h3.entry-title {font-size:1.4em;font-family:monospace;background-color:rgb(233, 233, 233);}
+body.home div#content h2.entry-title, body.archive div#content h3.entry-title, body.search div#content h3.entry-title{font-size:1.4em;font-family:monospace;background-color:rgb(233, 233, 233);}
 body.single div#content h2.entry-title{font-size:1.4em;font-family:monospace;}
 div#content h2.page-title{font-size:1.75em;font-family:monospace;}
 div#content h3.entry-title{font-size:1.1em;}
@@ -168,3 +168,4 @@ div#nav-below ul#menu li {display:inline;}
 div.sidebar h2.wp-block-heading {font-family:monospace;color:rgb(186, 185, 185);}
 div.sidebar ul.wp-block-archives li, div.sidebar ul.wp-block-archives li a{font-family:monospace;color:rgb(142, 142, 142);font-size:90%;}
 div.sidebar ul.wp-block-archives li a:hover {font-weight:bold;text-decoration:underline;font-style:italic;color:blue;}
+span.dah-query-text {border: 0.5px solid lightsteelblue; padding: 0.2em 0.5em;}
