@@ -29,9 +29,8 @@ body.page p.entry-edit{clear:both;width:100%;}
 body div#content div.entry-meta{clear:both;width:100%;}
 body.single div#container,body.page div#container{margin:0 0 2em;}
 body.single div.entry-meta{border-bottom:2px solid #000;border-top:1px solid #000;margin:2em auto;padding:0.5em;width:75%;}
-body.single h2.entry-title,body.page h2.entry-title,body.search h2.entry-title{margin:1em 0 -0.5em;}
 body.home h2.entry-title a, body.archive h3.entry-title a, body.search h3.entry-title a {display:inline-block; width: 100%;}
-body.home h2.entry-title a:hover, body.archive h3.entry-title a:hover, body.search h3.entry-title a:hover {background-color: rgb(217, 217, 247);}
+body.home h2.entry-title a:hover, body.archive h3.entry-title a:hover, body.search h3.entry-title a:hover, body.single h2.entry-title a:hover,body.page h2.entry-title a:hover {background-color: rgb(217, 217, 247);}
 body.single div#content,body.page div#content{margin:3em 0 0;}
 body.archive div.archive-meta{font-style:italic;letter-spacing:1px;}
 body.archive div.p1, body.search div.p1{margin-top:2em;}
@@ -98,8 +97,7 @@ body.page div.contactform div.contactright input#contactsubmit{margin:0 0 0 10em
 div.formcontainer form#commentform div.form-submit input#submit{margin:0.5em 0 0 7em;}
 div#content h2,div#content h3,div#content h4,div#content h5,div#content h6,div#header h1#blog-title,div.sidebar ul li h3{font-weight:400;line-height:130%;}
 div#content .entry-title,div#content .page-title{letter-spacing:1px;margin:0;}
-body.home div#content h2.entry-title, body.archive div#content h3.entry-title, body.search div#content h3.entry-title{font-size:1.4em;font-family:monospace;background-color:rgb(233, 233, 233);}
-body.single div#content h2.entry-title{font-size:1.4em;font-family:monospace;}
+body.home div#content h2.entry-title, body.archive div#content h3.entry-title, body.search div#content h3.entry-title, body.single div#content h2.entry-title,body.page div#conteent h2.entry-title{font-size:1.4em;font-family:monospace;background-color:rgb(233, 233, 233);}
 div#content h2.page-title{font-size:1.75em;font-family:monospace;}
 div#content h3.entry-title{font-size:1.1em;}
 div#footer{border-bottom:2px solid #000;border-top:1px solid #000;clear:both;font-size:0.7em;margin:0 0 2em;padding:0.5em 0;width:100%;}
