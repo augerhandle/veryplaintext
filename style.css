@@ -23,7 +23,7 @@ body.home div.entry-meta span{font-size:0.8em;}
 body.home div.entry-meta span.meta-sep{margin:0 0.3em;}
 body.home div.entry-meta,body.archive div.entry-meta,body.search div.entry-meta{margin:-0.5em 0 2.5em;}
 body.home div#globalnav,body.archive div#globalnav,body.search div#globalnav,body.four04 div#globalnav,body div#globalnav ul li ul,div.access,body.single div.sidebar,body.page div.sidebar,span#theme-link span.additional-name,span#theme-link span.family-name{display:none;}
-div#blog-description{border-bottom:1px solid lightgray;}
+div#header{border-bottom:1px solid lightgray; padding-bottom:0.25em;}
 body.page div.comments{margin:2em 0;}
 body.page p.entry-edit{clear:both;width:100%;}
 body div#content div.entry-meta{clear:both;width:100%;}
