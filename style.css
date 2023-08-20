@@ -167,3 +167,5 @@ div.sidebar h2.wp-block-heading {font-family:monospace;color:rgb(186, 185, 185);
 div.sidebar ul.wp-block-archives li, div.sidebar ul.wp-block-archives li a{font-family:monospace;color:rgb(142, 142, 142);font-size:90%;}
 div.sidebar ul.wp-block-archives li a:hover {font-weight:bold;text-decoration:underline;font-style:italic;color:blue;}
 span.dah-query-text {border: 0.5px solid lightsteelblue; padding: 0.2em 0.5em;}
+p.dah-license-callout {font-family:monospace;font-size:70%;border-top: black 1px;line-height:150%;}
+p.dah-license-callout a {font-weight:bold; text-decoration: underline;color:lightskyblue;}
